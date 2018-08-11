@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  justify-content: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/* header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 1;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+header nav {
+  margin-right: 10px;
+}
+
+nav span {
+}
+
+nav span a {
+  color: white;
+  text-decoration: underline;
+}
+
+
+/* content */
+.content {
+  top: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  width: 1200px;
+}
+
+.banner {
+  display: flex;
+  background-image: url(https://87designer.github.io/tea-cozy/resources/images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+}
+
+.mission {
+  align-self: center;
+  height: 150px;
+  width: 1200px;
+  background-color: black;
+}
+
+.tea-moth {
+  display: flex;
+  flex-direction: column;
+  
+}
