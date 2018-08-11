@@ -17,6 +17,7 @@ header {
   align-items: center;
   position: fixed;
   z-index: 1;
+  background-color: black;
   border-bottom: 1px solid seashell;
   height: 69px;
   width: 100%;
@@ -73,5 +74,5 @@ nav span a {
 .tea-moth {
   display: flex;
   flex-direction: column;
-  
+
 }
